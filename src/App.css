@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  font-family: "Poppins" sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* NAVBAR */
+.logo {
+  width:6.25rem;
+}
+
+/* NAV BAR LINKS */
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+.navbar-nav > li > a {
+color:#000762;
+}
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.2rem solid orange;
+  border-bottom: 0.2rem solid orange; 
 }
