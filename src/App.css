@@ -62,3 +62,11 @@ color:#000762;
   border-top: 0.2rem solid orange;
   border-bottom: 0.2rem solid orange; 
 }
+/* HEADER */
+.header-wraper {
+  position: relative;
+  background: url(hero-banner-avatar-1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
